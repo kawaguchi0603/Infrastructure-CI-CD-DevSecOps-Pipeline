@@ -25,3 +25,6 @@ GitLab CI/CDを活用し、インフラコード（Ansible）の**構文チェ�
 2. **Security Stage (`trivy_security_scan`)**
    * セキュリティスキャナー `Trivy` (`aquasec/trivy:latest`) を使用。
    * インフラ設定ファイル全体をスキャンし、不適切なセキュリティ設定やリスクを検知。
+
+## 結果
+<img width="520" height="580" alt="image" src="https://github.com/user-attachments/assets/32402b6a-4921-40c8-86eb-7f0f1b7ed56d" />
