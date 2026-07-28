@@ -1,0 +1,9 @@
+deploy_to_production:
+  stage: deploy
+  tags:
+    - vm1-runner
+  script:
+    - ansible-playbook -i hosts.ini test.yml -vvv
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      when: manual
